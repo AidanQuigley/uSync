@@ -15,10 +15,10 @@ const App = () => {
             <nav>
                 <img id='navLogo' src={logo}/>
                 <ul id='navList'>
-                    <li id='navHome'>Home</li>
-                    <li id='navGames'>Games</li>
-                    <li id='navComingSoon'>Coming Soon</li>
-                    <li id='navMore'>More</li>
+                    <a href=''><li id='navHome'>Home</li></a>
+                    <a href=''><li id='navGames'>Games</li></a>
+                    <a href=''><li id='navComingSoon'>Coming Soon</li></a>
+                    <a href=''><li id='navMore'>More</li></a>
                 </ul>
             </nav>
             <Body></Body>

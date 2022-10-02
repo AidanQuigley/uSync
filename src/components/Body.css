@@ -13,14 +13,47 @@
     text-align: center;
     flex-flow: column;
     color: white;
+    margin-bottom: 20px;
 }
 
-#sectionTitle {
+.sectionTitle {
+    position: relative;
     color: white;
     font-size: 50px;
     text-align: center;
 }
 
+.titlesImg {
+    position: relative;
+    width: 150px;
+}
+
+#supported-titles {
+    position: relative;
+    width: 100%;
+}
+    .titlesList {
+        position: relative;
+        width: 50%;
+        margin-left: 25%;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+        .titles {
+            position: relative;
+            display: inline-block;
+            margin: 2%;
+        }
+
 #lan-events {
+    position: relative;
+    padding: 20px 0px 50px 0px;
+    width: 100%;
     background-color: #434343;
+}
+
+#coming-soon {
+    position: relative;
+    width: 100%;
 }
