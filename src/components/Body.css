@@ -1,9 +1,9 @@
 #heading {
     position: relative;
     height: 100%;
-    background: url('img/homepage.jpg');
+    background: linear-gradient(rgba(142,106,206,0.5),rgba(142,106,206,0.5)), url('img/background.jpeg');
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 20vw center;
     background-size: cover;
     -webkit-background-size: cover;
     width: 100%;
@@ -14,6 +14,13 @@
     flex-flow: column;
     color: white;
     margin-bottom: 20px;
+}
+
+#heading-textarea {
+    background-color: #0C0B22;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 60% 0, 40% 100%, 0% 100%);
 }
 
 .sectionTitle {
@@ -56,4 +63,11 @@
 #coming-soon {
     position: relative;
     width: 100%;
+}
+
+@media screen and (max-width: 715px) {
+    .titlesList {
+        width: 90%;
+        margin-left: 5%;
+    }
 }

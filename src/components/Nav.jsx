@@ -4,7 +4,7 @@ import './Nav.css';
 const Nav = () => {
     return (
         <nav>
-            <img id='navLogo' src={logo}/>
+            <img id='navLogo' className='desktop' src={logo}/>
             <ul id='navList'>
                 <a href=''><li id='navHome'>Home</li></a>
                 <a href=''><li id='navGames'>Games</li></a>

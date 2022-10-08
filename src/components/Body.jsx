@@ -13,17 +13,19 @@ const Body = () => {
     return (
         <div>
             <div id='heading'>
+                <div id='heading-textarea'>
 
+                </div>
             </div>
             <div id='supported-titles'>
                 <h1 className='sectionTitle'>Supported Titles</h1>
                 <ul className='titlesList'>
-                    <li className='titles'><img className='titlesImg' src={halo}/></li>
-                    <li className='titles'><img className='titlesImg' src={codVAN}/></li>
-                    <li className='titles'><img className='titlesImg' src={codWZ}/></li>
-                    <li className='titles'><img className='titlesImg' src={LOL}/></li>
-                    <li className='titles'><img className='titlesImg' src={RL}/></li>
-                    <li className='titles'><img className='titlesImg' src={val}/></li>
+                    <a href=''><li className='titles'><img className='titlesImg' src={halo}/></li></a>
+                    <a href=''><li className='titles'><img className='titlesImg' src={codVAN}/></li></a>
+                    <a href=''><li className='titles'><img className='titlesImg' src={codWZ}/></li></a>
+                    <a href=''><li className='titles'><img className='titlesImg' src={LOL}/></li></a>
+                    <a href=''><li className='titles'><img className='titlesImg' src={RL}/></li></a>
+                    <a href=''><li className='titles'><img className='titlesImg' src={val}/></li></a>
                 </ul>
             </div>
             <div id='lan-events'>
@@ -35,9 +37,9 @@ const Body = () => {
             <div id='coming-soon'>
                 <h1 className='sectionTitle'>Coming Soon!</h1>
                 <ul className='titlesList'>
-                    <li className='titles'><img className='titlesImg' src={ow2}/></li>
-                    <li className='titles'><img className='titlesImg' src={smash}/></li>
-                    <li className='titles'><img className='titlesImg' src={apexUC}/></li>
+                    <a href=''><li className='titles'><img className='titlesImg' src={ow2}/></li></a>
+                    <a href=''><li className='titles'><img className='titlesImg' src={smash}/></li></a>
+                    <a href=''><li className='titles'><img className='titlesImg' src={apexUC}/></li></a>
                 </ul>
             </div>
         </div>

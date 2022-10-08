@@ -4,6 +4,7 @@ footer {
     margin: 0px;
     padding: 0px;
     text-align: center;
+    color: white;
 }
 
 #socials {
@@ -32,4 +33,11 @@ footer div {
     position: relative;
     width: 40%;
     margin-left: 30%;
+}
+
+@media screen and (max-width: 1200px) {
+    footer div {
+        width: 90%;
+        margin-left: 5%;
+    }
 }
