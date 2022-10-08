@@ -49,4 +49,8 @@ nav li {
     nav li {
         display: inline-block;
     }
+
+    nav {
+        font-size: 16px;
+    }
 }
