@@ -3,7 +3,7 @@ nav a:link {
 }
 
 a:visited {
-    color: currentColor;
+    color: currentColor!important;
 }
 
 nav {
@@ -45,9 +45,6 @@ nav {
 }
 #navMore:hover #moreDropDown {
     display: block;
-}
-#navMore:hover {
-    cursor: default;
 }
 #gamesDropDown {
     position: absolute;

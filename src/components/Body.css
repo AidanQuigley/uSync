@@ -124,7 +124,7 @@ a:visited {
 .socialList {
     position: relative;
     list-style: none;
-    width: 30%;
+    width: 40%;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -134,8 +134,8 @@ a:visited {
         display: inline-block;
         margin: 0;
         padding: 0;
-        margin-right: 1.3%;
-        margin-left: 1.3%;
+        margin-right: 2%;
+        margin-left: 2%;
         width: 20%;
     }
 .list li::before {
@@ -143,9 +143,35 @@ a:visited {
     color: rgb(142,106,206);
 }
 
+.moreLooking {
+    position: relative;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 715px) {
     .titlesList {
         width: 90%;
         margin-left: 5%;
+    }
+    .section p {
+        width: 90%;
+        font-size: 1rem;
+    }
+    .list {
+        font-size: 20px;
+        line-height: 40px;
+        width: 100%;
+        margin: 0;
+    }
+    .actionButton {
+        width: 50%;
+    }
+    .moreLooking {
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    .socialList {
+        width: 80%;
     }
 }
