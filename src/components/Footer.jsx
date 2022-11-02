@@ -20,7 +20,7 @@ const Footer = () => {
                 <a href='https://www.gofundme.com/f/uSync-the-hub-for-esport-events?member=20327371&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all&utm_source=customer'><li><img src={socGoFundMe}/></li></a>
                 <a href='mailto:usyncgg@gmail.com'><li><img src={socEmail}/></li></a>
             </ul>
-            <p>usyncgg@gmail.com ©2022 by uSync LLC. <a href='' style={{color: '#8D7DB5'}}>Contact Us</a></p>
+            <p>usyncgg@gmail.com ©2022 by uSync LLC. <a href='/more/contact-us' style={{color: '#8D7DB5'}}>Contact Us</a></p>
             <p>All content, games titles, trade names and/or trade dress, trademarks, 
                 artwork and associated imagery are trademarks and/or copyright material of their respective owners</p>
             <p>Version: <i>BETA</i></p>
