@@ -21,7 +21,7 @@ const Nav = () => {
                     </li>
                     <a href='/coming-soon'><li id='navComingSoon'>Coming Soon</li></a>
                     <li id='navMore' onclick="void(0)">
-                        <a onClick="void(0)">More</a>
+                        <a href='.' onClick="void(0)">More</a>
                         <ul id='moreDropDown'>
                             <a href='/more/verification'><li className='ddGame'>Verification</li></a>
                             <a href='/more/event-host'><li className='ddGame'>Event Host</li></a>

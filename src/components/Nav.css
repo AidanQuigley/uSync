@@ -1,9 +1,10 @@
 nav a:link {
     text-decoration: none!important;
+    color: currentColor;
 }
 
-a:visited {
-    color: currentColor!important;
+nav a:visited {
+    color: currentColor;
 }
 
 nav {

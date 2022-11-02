@@ -1,9 +1,9 @@
-a:visited {
-    color:currentColor;
-}
-
 a:link {
     text-decoration: none;
+}
+
+a:visited {
+    color: currentColor;
 }
 
 #heading {
@@ -126,4 +126,32 @@ a:link {
         width: 90%;
         margin-left: 5%;
     }
+    #heading {
+        background: #0C0B22;
+    }
+        #heading-textarea {
+            clip-path: none;
+        }
+        #heading-title {
+            margin: auto;
+            text-align: center;
+            font-size: 20vw;
+            width: auto;
+            margin-top: 100px;
+            z-index: 9;
+        }
+        #heading-subtitle {
+            margin: auto;
+            text-align: center;
+            font-size: 5vw;
+            width: 80%;
+            margin-top: 50px;
+        }
+        #heading-button {
+            margin: auto;
+            font-size: 5vw;
+            border: 0.3vw solid white;
+            width: 70%;
+            margin-top: 100px;
+        }
 }
