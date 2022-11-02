@@ -1,3 +1,7 @@
+a:visited {
+    color: currentColor;
+}
+
 #body {
     position: relative;
     padding-top: 70px;

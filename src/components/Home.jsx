@@ -15,8 +15,7 @@ const Home = () => {
             <div id='heading'>
                 <div id='heading-textarea'>
                     <div id='heading-title'>u<text style={{color:'#8E6ACE'}}>Sync</text></div>
-                    <div id='heading-subtitle'>Finding <text style={{textDecoration:'underline', textDecorationColor: '#8E6ACE'}}>esports</text>
-                     competitions is challending. 
+                    <div id='heading-subtitle'>Finding <text style={{textDecoration:'underline', textDecorationColor: '#8E6ACE'}}>esports</text> competitions is challending. 
                         We make finding competition for each game not only <text style={{textDecoration:'underline', textDecorationColor: '#8E6ACE'}}>simple</text>, 
                         but <text style={{textDecoration:'underline', textDecorationColor: '#8E6ACE'}}>all in one place</text>.
                     </div>
