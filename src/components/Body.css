@@ -1,13 +1,18 @@
-#heading {
+#body {
     position: relative;
-    height: 100%;
+    padding-top: 70px;
+    min-height: 90vh;
+}
+
+#heading-body {
+    position: relative;
     background: linear-gradient(rgba(142,106,206,0.5),rgba(142,106,206,0.5)), url('img/background.jpeg');
     background-repeat: no-repeat;
-    background-position: 20vw center;
+    background-position: center center;
     background-size: cover;
     -webkit-background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 300px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -15,30 +20,25 @@
     color: white;
     margin-bottom: 20px;
 }
-
-#heading-textarea {
-    background-color: #0C0B22;
-    width: 100%;
-    height: 100%;
-    clip-path: polygon(0 0, 60% 0, 40% 100%, 0% 100%);
-}
-
-.sectionTitle {
-    position: relative;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-}
-
-.titlesImg {
-    position: relative;
-    width: 150px;
-}
+    #heading-text {
+        position: relative;
+        font-size: 5rem;
+        margin: auto;
+    }
 
 #supported-titles {
     position: relative;
+    height: auto;
     width: 100%;
 }
+    #titles-titleone {
+        position: relative;
+        margin: auto;
+        text-align: center;
+        color: white;
+        padding: 0;
+        font-size: 3rem;
+    }
     .titlesList {
         position: relative;
         width: 50%;
@@ -52,17 +52,37 @@
             display: inline-block;
             margin: 2%;
         }
+            .titlesImg {
+                position: relative;
+                width: 150px;
+            }
+            .eventsImg {
+                position: relative;
+                width: 350px;
+            }
+        
 
-#lan-events {
+.section {
     position: relative;
-    padding: 20px 0px 50px 0px;
     width: 100%;
-    background-color: #434343;
 }
-
-#coming-soon {
+    .section p {
+        position: relative;
+        color: white;
+        margin: auto;
+        width: 50%;
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+.divider {
+    background-color: white;
     position: relative;
-    width: 100%;
+    height: 2px;
+    width: 70%;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 715px) {

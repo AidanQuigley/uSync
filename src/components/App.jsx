@@ -1,6 +1,6 @@
 import './App.css';
 
-import Body from './Body.jsx';
+import Home from './Home.jsx';
 import Nav from './Nav.jsx';
 import Footer from './Footer.jsx';
 
@@ -8,7 +8,7 @@ const App = () => {
     return (
         <div>
             <Nav></Nav>
-            <Body></Body>
+            <Home></Home>
             <Footer></Footer>
         </div>
     );

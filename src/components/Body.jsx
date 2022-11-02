@@ -1,4 +1,5 @@
 import './Body.css';
+
 import apexUC from './img/apexUC.jpg';
 import codVAN from './img/codVAN.jpg';
 import codWZ from './img/codWZ.jpg';
@@ -11,38 +12,33 @@ import val from './img/val.jpg';
 
 const Body = () => {
     return (
-        <div>
-            <div id='heading'>
-                <div id='heading-textarea'>
-
-                </div>
+        <div id="body">
+            <div id='heading-body'>
+                <h1 id='heading-text'>uSync Titles</h1>
             </div>
             <div id='supported-titles'>
-                <h1 className='sectionTitle'>Supported Titles</h1>
+                <h1 id='titles-titleone'></h1>
                 <ul className='titlesList'>
-                    <a href=''><li className='titles'><img className='titlesImg' src={halo}/></li></a>
-                    <a href=''><li className='titles'><img className='titlesImg' src={codVAN}/></li></a>
-                    <a href=''><li className='titles'><img className='titlesImg' src={codWZ}/></li></a>
-                    <a href=''><li className='titles'><img className='titlesImg' src={LOL}/></li></a>
-                    <a href=''><li className='titles'><img className='titlesImg' src={RL}/></li></a>
-                    <a href=''><li className='titles'><img className='titlesImg' src={val}/></li></a>
+                    <a href='halo'><li className='titles'><img className='titlesImg' src={halo}/></li></a>
+                    <a href='call-of-duty'><li className='titles'><img className='titlesImg' src={codVAN}/></li></a>
+                    <a href='warzone'><li className='titles'><img className='titlesImg' src={codWZ}/></li></a>
+                    <a href='league-of-legends'><li className='titles'><img className='titlesImg' src={LOL}/></li></a>
+                    <a href='rocket-league'><li className='titles'><img className='titlesImg' src={RL}/></li></a>
+                    <a href='valorant'><li className='titles'><img className='titlesImg' src={val}/></li></a>
                 </ul>
             </div>
-            <div id='lan-events'>
-                <h1 className='sectionTitle'>LAN Events</h1>
-                <div style={{position: 'relative', width: '70%', left: '15%', padding: 'none', margin: 'none'}}>
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F" width="100%" height="640"></iframe>
-                </div>
-            </div>
-            <div id='coming-soon'>
+            <div className='divider'></div>
+            <div id='section'>
                 <h1 className='sectionTitle'>Coming Soon!</h1>
                 <ul className='titlesList'>
-                    <a href=''><li className='titles'><img className='titlesImg' src={ow2}/></li></a>
-                    <a href=''><li className='titles'><img className='titlesImg' src={smash}/></li></a>
-                    <a href=''><li className='titles'><img className='titlesImg' src={apexUC}/></li></a>
+                    <a href='coming-soon'><li className='titles'><img className='titlesImg' src={ow2}/></li></a>
+                    <a href='coming-soon'><li className='titles'><img className='titlesImg' src={smash}/></li></a>
+                    <a href='coming-soon'><li className='titles'><img className='titlesImg' src={apexUC}/></li></a>
                 </ul>
             </div>
+            
         </div>
     );
 }
+
 export default Body;
