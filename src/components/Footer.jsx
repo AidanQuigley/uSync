@@ -11,14 +11,14 @@ const Footer = () => {
     return (
         <footer>
             <div>
-            <p style={{paddingTop: '20px'}}><a href='' style={{color: '#8D7DB5', textDecoration: 'underline'}}>Report A Problem</a></p>
+            <p style={{paddingTop: '20px'}}><a href='./more/contact-us' style={{color: '#8D7DB5', textDecoration: 'underline'}}>Report A Problem</a></p>
             <ul id="socials">
                 <a href='https://twitter.com/uSyncGG'><li><img src={socTwitter}/></li></a>
                 <a href='https://www.instagram.com/usyncgg/'><li><img src={socInsta}/></li></a>
                 <a href='https://www.youtube.com/channel/UC8vWNAiWRJZVwsvKtNhfRJQ'><li><img src={socYT}/></li></a>
                 <a href='https://www.twitch.tv/usyncgg'><li><img src={socTwitch}/></li></a>
                 <a href='https://www.gofundme.com/f/uSync-the-hub-for-esport-events?member=20327371&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all&utm_source=customer'><li><img src={socGoFundMe}/></li></a>
-                <a href='usyncgg@gmail.com'><li><img src={socEmail}/></li></a>
+                <a href='mailto:usyncgg@gmail.com'><li><img src={socEmail}/></li></a>
             </ul>
             <p>usyncgg@gmail.com ©2022 by uSync LLC. <a href='' style={{color: '#8D7DB5'}}>Contact Us</a></p>
             <p>All content, games titles, trade names and/or trade dress, trademarks, 

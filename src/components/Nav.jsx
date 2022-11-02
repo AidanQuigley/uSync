@@ -20,7 +20,14 @@ const Nav = () => {
                             </ul>
                         </li>
                     <a href='../coming-soon'><li id='navComingSoon'>Coming Soon</li></a>
-                    <a href='../more'><li id='navMore'>More</li></a>
+                    <li id='navMore'>
+                        More
+                        <ul id='moreDropDown'>
+                            <a href='../more/verification'><li className='ddGame'>Verification</li></a>
+                            <a href='../more/event-host'><li className='ddGame'>Event Host</li></a>
+                            <a href='../more/contact-us'><li className='ddGame'>Contact Us</li></a>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </>
