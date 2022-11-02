@@ -1,5 +1,5 @@
 a:visited {
-    color: currentColor;
+    color: currentColor!important;
 }
 
 #body {
